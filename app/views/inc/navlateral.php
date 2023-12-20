@@ -15,7 +15,7 @@
 			<figcaption class="navLateral-body-cr">
 				<span>
 					<?php echo $_SESSION['nombre']; ?><br>
-					<small></small>
+					<small><?php echo $_SESSION['email']; ?></small>
 				</span>
 			</figcaption>
 		</figure>
