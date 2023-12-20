@@ -1,7 +1,7 @@
 <section class="full-width navLateral scroll" id="navLateral">
 	<div class="full-width navLateral-body">
 		<div class="full-width navLateral-body-logo has-text-centered tittles is-uppercase">
-			Sistema de ventas 
+			 
 		</div>
 		<figure class="full-width" style="height: 77px;">
 			<div class="navLateral-body-cl">
@@ -32,7 +32,7 @@
 							<i class="fab fa-dashcube fa-fw"></i>
 						</div>
 						<div class="navLateral-body-cr">
-							Inicio
+							Dashboard
 						</div>
 					</a>
 				</li>
