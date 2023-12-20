@@ -117,7 +117,7 @@ body,html{
 }
 /*=============Estilos barra superior*/
 .navBar{
-    background-color: #2f922f;
+    background-color: #319439;
     height: 45px;
     color: #fff;
     position: relative;
@@ -209,7 +209,7 @@ body,html{
     border-right: none;
 }
 .navLateral-body{
-    background-color: #f0e6e6;
+    background-color: #fff;
     position: relative;
 }
 .navLateral-body-logo{
@@ -218,7 +218,7 @@ body,html{
     color: #fff;
     width: 100%;
     font-size: 25px;
-    background-color: #2f922f;
+    background-color: #319439;
 }
 .navLateral-body-cl,
 .navLateral-body-cr{

@@ -1,6 +1,7 @@
 <section class="full-width navLateral scroll" id="navLateral">
 	<div class="full-width navLateral-body">
 		<div class="full-width navLateral-body-logo has-text-centered tittles is-uppercase">
+			Sistema de ventas 
 		</div>
 		<figure class="full-width" style="height: 77px;">
 			<div class="navLateral-body-cl">
@@ -20,7 +21,7 @@
 			</figcaption>
 		</figure>
 		<div class="full-width tittles navLateral-body-tittle-menu has-text-centered is-uppercase">
-			<i class="fas fa-th-large fa-fw"></i> &nbsp; <?php  ?>
+			<i class="fas fa-th-large fa-fw"></i> &nbsp; <?php echo APP_NAME; ?>
 		</div>
 		<nav class="full-width">
 			<ul class="full-width list-unstyle menu-principal">
@@ -346,7 +347,7 @@
 							</a>
 						</li>
 						<li class="full-width">
-							<a href="<?php echo APP_URL; ?>userUpdate/" class="full-width">
+							<a href="<?php echo APP_URL."userUpdate/".$_SESSION['id']."/"; ?>" class="full-width">
 								<div class="navLateral-body-cl">
 									<i class="fas fa-user-tie fa-fw"></i>
 								</div>
@@ -356,7 +357,7 @@
 							</a>
 						</li>
 						<li class="full-width">
-							<a href="<?php echo APP_URL; ?>userPhoto/" class="full-width">
+							<a href="<?php echo APP_URL."userPhoto/".$_SESSION['id']."/"; ?>" class="full-width">
 								<div class="navLateral-body-cl">
 									<i class="fas fa-camera"></i>
 								</div>
@@ -371,7 +372,7 @@
 				<li class="full-width divider-menu-h"></li>
 
 				<li class="full-width mt-5">
-					<a href="<?php echo APP_URL; ?>logOut/" class="full-width btn-exit" >
+					<a href="<?php echo APP_URL."logOut/"; ?>" class="full-width btn-exit" >
 						<div class="navLateral-body-cl">
 							<i class="fas fa-power-off"></i>
 						</div>
