@@ -13,6 +13,22 @@
         if($_POST['modulo_producto']=="registrar"){
             echo $insProducto->registrarProductoControlador();
         }
+
+        if($_POST['modulo_producto']=="eliminar"){
+            echo $insProducto->eliminarProductoControlador();
+        }
+
+        if($_POST['modulo_producto']=="actualizar"){
+            echo $insProducto->actualizarProductoControlador();
+        }
+
+        if($_POST['modulo_producto']=="eliminarFoto"){
+            echo $insProducto->eliminarFotoProductoControlador();
+        }
+
+        if($_POST['modulo_producto']=="actualizarFoto"){
+            echo $insProducto->actualizarFotoProductoControlador();
+        }
     }else{
         session_destroy();
         header("location: ".APP_URL."login/");
